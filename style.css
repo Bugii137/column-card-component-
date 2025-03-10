@@ -1,0 +1,52 @@
+form {
+    background-color: aliceblue;
+    position: absolute;
+    display: inline-flex;
+    margin: 64px;
+    padding-top: 0;
+    height: 480px;
+    width: 780px;
+}
+
+fieldset {
+    margin: 0;
+    padding-top: 120px;
+    padding-right: 72px;
+    padding-left: 36px;
+    align-items: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: tahoma;
+    
+}
+
+.button {
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 100px;
+    height: 36px; 
+ }
+
+.sedan, .button {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv, .button {
+background-color: hsl(184, 100%, 22%);
+}
+
+.luxury, .button {
+background-color: hsl(179, 100%, 13%);
+}
+
+
+ 
+ 
